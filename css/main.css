@@ -1,0 +1,272 @@
+body{
+  font-family: 'Metal Mania';
+  background: white;
+  color: black;
+}
+
+/* NavbarSection */
+.navbar-text{
+  font-family: 'Kaushan Script';
+  font-size: 3rem;
+}
+.navbar-light{
+  color: #AC003A !important;
+  background: #ffacb7 !important;
+}
+.dark-amber-text{
+  color: #AC003A;
+}
+.navbar-toggler{
+  outline: none !important;
+}
+.toggler-icon{
+  font-size: 1.5rem;
+  /* color: red; */
+}
+.nav-link{
+  color: pink;
+  font-size: 1.0rem;
+  transition: all 1s ease-in-out;
+}
+.nav-link:hover{
+  color: black;
+  font-size: 1.1rem;
+}
+.cart-info{
+  border: 0.1rem solid black;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  padding: .5rem .6rem;
+}
+.info-icon{
+  color: red;
+  font-size: 2rem;
+}
+.cart-info:hover{
+  border-color: pink;
+  color: white;
+  background: pink;
+}
+.cart-info:hover .cart-info_icon{
+  color: black;
+}
+.max-height{
+  min-height: 100vh ;
+  background: url("../images/img2.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+}
+/* Home Section */
+.wel-text{
+  color: #00909e;
+}
+.banner-title{
+   color: #f40552;
+  font-size: 2rem;
+  transition: all 1s ease-in-out;
+}
+.banner-title:hover{
+  background: black;
+  color: white;
+  font-size: 2.5rem;
+}
+.banner-link{
+  color: #004d40;
+  font-size: 2rem;
+  border-radius: 2rem;
+  transition: all 1s ease-in-out;
+  border: 0.1rem solid black;
+  position: relative;
+  top: 30px;
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff !important;
+  font-size: 20px;
+  padding: 20px;
+  text-decoration: none;
+}
+.banner-link:hover{
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+/* About Section */
+.btn-dark{
+  background: black;
+  color: pink;
+  font-size: 2rem;
+  transition: all 1s ease-in-out;
+}
+.button1:hover{
+  background: pink;
+  color: black;
+}
+.about-img_container{
+  position: relative;
+}
+.about-img_container::before{
+  content: "";
+  position: absolute;
+  top: -1.5rem;
+  left: -1.5rem;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  outline: .5rem solid pink;
+  transition: all 1s linear;
+}
+.about-img_container:hover::before{
+  top: 0;
+  left: 0;
+}
+/* Store Section */
+.store-container{
+  background: #ee91bc;
+  font-family: 'Kaushan Script';
+}
+.store-section{
+  background: #c060a1;
+}
+.search-box{
+  background: pink !important;
+  color: black !important;
+}
+.single-item:hover{
+  box-shadow: 0 10px 10px black;
+}
+.single-item{
+  transition: all 1s linear;
+}
+.store-img{
+  transition: all 1s ease-in-out;
+}
+.img-container:hover .store-img{
+  transform: scale(1.2);
+}
+.img-container{
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+.store-item-icon{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  padding: 0.75rem;
+  background: pink;
+  color: black;
+  border-top-left-radius: .1rem;
+  transition: all 1s ease-in-out;
+  transform: translate(100%,100%);
+}
+.img-container:hover .store-item-icon{
+  transform: translate(0,0);
+}
+.store-item-icon:hover{
+  color: white;
+  background: purple;
+}
+/* Service Section */
+.service{
+  color: black;
+  background: linear-gradient(to right,rgba(0, 0, 0, .6),rgba(0, 0, 0, .2)),url(../images/img11.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+.service-title{
+  letter-spacing: .5rem;
+}
+.service-text{
+  word-spacing: .5rem;
+}
+/* Footer Section */
+.footer-brand{
+  font-family: 'Kaushan Script';
+}
+.footer-title{
+  background: #c060a1;
+}
+.footer-icon{
+  color: white;
+  font-size: 2rem;
+  transition: all 1s ease-in-out;
+}
+.footer-icon:hover{
+  color: #b5076b;
+}
+.footer-icon1{
+  color: #900c3f;
+  font-size: 1.5rem;
+  font-family: 'Kaushan Script';
+}
+.display{
+  font-size: 1.5rem;
+  font-family: 'Kaushan Script';
+}
+.footer-contact{
+  background: pink;
+}
+.footer-icon1:hover{
+  font-size: 2rem;
+  color: black;
+}
+/* Cart Info Section */
+.cart{
+  position: absolute;
+  min-height: 10rem;
+  background: white;
+  top: 0;
+  right: 0;
+  width: 0;
+  overflow: hidden;
+  transition: all .4sec ease-in-out;
+  color: #900c3f;
+}
+.show-cart{
+  width: 18rem;
+  padding: 2rem 1.5rem;
+  transform: rotateY(360deg);
+}
+.cart-item-remove{
+  color: #c060a1 !important;
+  transition: all 1s ease-in-out;
+}
+.cart-item-remove:hover{
+  color: black;
+  transform: scale(1.5);
+}
+.btn-black{
+  color: black !important;
+  font-size: 1rem !important;
+  background: #c060a1 !important;
+  transition: all 1s ease-in-out !important;
+}
+.btn-black:hover{
+  color: black !important;
+  background: pink !important;
+}
+.cart-item img{
+  transition: all 1s ease-in-out;
+}
+.cart-item:hover img{
+  color: black;
+  transform: scale(1.5);
+}

@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Crunch Bake Bakery</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/68835108d0.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="C:\Users\kriti kothari\Desktop\WEBDEVELOPMENT\setup2\css\main.css">
+    <link rel="stylesheet" href="C:\Users\kriti kothari\Desktop\WEBDEVELOPMENT\setup2\css\bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <header id="header">
+      <nav class="navbar navbar-expand-md px-4 navbar-light light-amber lighten-4">
+        <a href="#" class="navbar-brand navbar-text">
+          <img src="C:\Users\kriti kothari\Desktop\WEBDEVELOPMENT\setup2\images\img1.jpeg" alt="no display" style="width:50px;height:50px;" class="rounded-circle">
+          Crunch Bake
+        </a>
+        <button type="button" name="button" class="navbar-toggler" data-toggle="collapse" data-target="#pp1">
+          <span class="toggler-icon dark-amber-text"><i class="fas fa-bars fa-1x"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="pp1">
+          <ul class="navbar-nav text-capitalize mx-auto">
+            <li class="nav-item">
+              <a href="#header" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">about</a>
+            </li>
+            <li class="nav-item">
+              <a href="#store" class="nav-link">store</a>
+            </li>
+            <li class="nav-item">
+              <a href="#service" class="nav-link">service</a>
+            </li>
+            <li class="nav-item">
+              <a href="#order" class="nav-link">order</a>
+            </li>
+          </ul>
+          <div class="nav-info-items d-none d-lg-flex">
+            <div class="nav-info align-items-center d-flex justofy-content-between mx-lg-5">
+              <span class="info-icon mx-lg-3">
+                <i class="fas fa-phone"></i></span>
+                <p class="mb-0">9166369796</p>
+            </div>
+            <div id="cart-info" class="cart-info nav-info align-items-center d-flex justify-content-between mx-lg-5">
+              <span class="cart-info_icon mr-lg-3">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+              <p class="mb-0 text-capitalize">
+                <span id="item-count">3</span>
+                items-
+                <i class="fas fa-rupee-sign"></i>
+                <span class="item-total">120</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Home Section -->
+    <div class="container-fluid max-height">
+      <div class="row max-height align-items-center justify-content-center">
+        <div class="col-10 mx-auto banner text-center">
+          <h1 class="text-capitalize wel-text">Welcome to <strong class="banner-title">Crunch Bake</strong></h1>
+          <a href="#" class="btn banner-link text-capitalize">EXPLORE</a>
+        </div>
+        <div class="cart" id="cart">
+          <div class="cart-item d-flex justify-content-between text-capitalize my-3">
+            <img src="C:\Users\kriti kothari\Desktop\WEBDEVELOPMENT\setup2\images\img15.jpeg" alt="not display" style="width:50px;height:50px" class="rounded-circle img-fluid" id="img-cart-info">
+            <div class="item-text">
+              <p id="cart-item-title" class="font-weight-bold mb-0">cart item</p>
+              <span>
+                <i class="fas fa-rupee-sign"></i></span>
+                <span id="card-item-price" class="cart-item-price mb-0">100</span>
+                </div>
+                <a href="#" class="cart-item-remove">
+                  <i class="fas fa-trash"></i>
+                </a>
+          </div>
+          <div class="cart-item d-flex justify-content-between text-capitalize my-3">
+            <img src="C:\Users\kriti kothari\Desktop\WEBDEVELOPMENT\setup2\images\img17.jpeg" alt="not display" style="width:50px;height:50px" class="rounded-circle img-fluid" id="img-cart-info">
+            <div class="item-text">
+              <p id="cart-item-title" class="font-weight-bold mb-0">cart item</p>
+              <span>
+                <i class="fas fa-rupee-sign"></i></span>
+                <span id="card-item-price" class="cart-item-price mb-0">90</span>
+                </div>
+                <a href="#" class="cart-item-remove">
+                  <i class="fas fa-trash"></i>
+                </a>
+          </div>
+          <div class="cart-total-container d-flex justify-content-around my-5 text-capitalize">
+            <h5>Total</h5>
+            <h5>
+              <i class="fas fa-rupee-sign"></i>
+            <strong id="cart-total" class="font-weight-bold">200</strong>
+            </h5>
+          </div>
+          <div class="cart-button-container my-3 d-flex justify-content-between text-capitalize">
+            <button type="button" name="button" class="btn btn-black text-uppercase">Clear Cart</button>
+            <button type="button" name="button" class="btn btn-black text-uppercase">Checkout</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <section class="about p-5 " id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-10 mx-auto col-md-6 my-5">
+            <h1 class="text-capitalize" style="font-family:'Kaushan Script';">About <strong class="banner-title">Us</strong></h1>
+            <p class="my-4 text-muted w-75">We bake ridiculously yummy cupcakes, cakes & sweet treats using only 100% vegan and gluten free ingredients.</p>
+            <a href="#" class="btn btn-outline-dark text-uppercase button1">explore</a>
+          </div>
+          <div class="col-10 col-md-6 mx-auto my-5 align-self-center">
+            <div class="about-img_container">
+              <img src="C:\Users\kriti kothari\Desktop\WEBDEVELOPMENT\setup2\images\img4.jpeg" alt="not display" class="img-fluid" style="width:500px;height:250px;">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Store Section -->
+    <section class="store py-5 store-section" id="store">
+      <div class="container">
+        <div class="row">
+          <div class="col-10 mx-auto col-md-6 my-5">
+            <h1 class="text-capitalize text-center" style="font-family:'Kaushan Script';">our <strong class="banner-title">store</strong></h1>
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-lg-8 mx-auto d-flex justify-content-around flex-wrap">
+            <a href="#" class="btn btn-outline-light text-uppercase mt-3">
+            <img src="C:\Users\kriti kothari\Desktop\WEBDEVELOPMENT\setup2\images\img1.jpeg" alt="no display" style="width:20px;height:20px;" class="rounded-circle">
+            all</a>
+            <a href="#" class="btn btn-outline-light text-uppercase mt-3"><i class="fas fa-birthday-cake"></i> CAke</a>
+            <a href="#" class="btn btn-outline-light text-uppercase mt-3"><i class="fas fa-coffee"></i> coffee</a>
+            <a href="#" class="btn btn-outline-light text-uppercase mt-3"><i class="fas fa-cheese"></i> pastry</a>
+            <a href="#" class="btn btn-outline-light text-uppercase mt-3"><i class="fas fa-bread-slice"></i> brownie</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-10 mx-auto col-md-6">
+            <form>
+              <div class="input-group mb-3 my-5">
+                <div class="input-group-prepend">
+                  <span class="input-group-text search-box" id="search-box">
+                    <i class="fas fa-search"></i>
+                  </span>
+                </div>
+                <input type="text" name="" value="" class="form-control" placeholder="Search items...">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid p-5 store-container">
+        <div class="row store-items" id="store-items">
+          <div class="col-10 col-md-4 mx-auto my-4 store-item">
+            <div class="card single-item">
+              <div class="img-container">
+                <img src="C:\Users\kriti kothari\Desktop\WEBDEVELOPMENT\setup2\images\img5.jpeg" alt="no display" class="card-img-top store-img">
+                <span class="store-item-icon">
+                  <i class="fas fa-shopping-cart"></i>
+                </span>
+              </div>
+              <div class="card-body">
+                <div class="card-text d-flex justify-content-between text-capitalize">
+                  <h5 class="store-item-name">Candies</h5>
+                  <h5 class="store-item-price">
+                    <i class="fas fa-rupee-sign"></i>
+                    <strong class="store-item-price font-weight-italic">
+                      100
+                    </strong>
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 col-md-4 mx-auto my-4 store-item">
+            <div class="card single-item">
+              <div class="img-container">
+                <img src="C:\Users\kriti kothari\Desktop\WEBDEVELOPMENT\setup2\images\img6.jpeg" alt="no display" class="card-img-top store-img">
+                <span class="store-item-icon">
+                  <i class="fas fa-shopping-cart"></i>
+                </span>
+              </div>
+              <div class="card-body">
+                <div class="card-text d-flex justify-content-between text-capitalize">
+                  <h5 class="store-item-name">Coffee</h5>
+                  <h5 class="store-item-price">
+                    <i class="fas fa-rupee-sign"></i>
+                    <strong class="store-item-price font-weight-italic">
+                      150
+                    </strong>
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 col-md-4 mx-auto my-4 store-item">
+            <div class="card single-item">
+              <div class="img-container">
+                <img src="C:\Users\kriti kothari\Desktop\WEBDEVELOPMENT\setup2\images\img7.jpeg" alt="no display" class="card-img-top store-img">
+                <span class="store-item-icon">
+                  <i class="fas fa-shopping-cart"></i>
+                </span>
+              </div>
+              <div class="card-body">
+                <div class="card-text d-flex justify-content-between text-capitalize">
+                  <h5 class="store-item-name">Chocolate Cupcakes</h5>
+                  <h5 class="store-item-price">
+                    <i class="fas fa-rupee-sign"></i>
+                    <strong class="store-item-price font-weight-italic">
+                      90
+                    </strong>
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row store-items" id="store-items">
+          <div class="col-10 col-md-4 mx-auto my-4 store-item">
+            <div class="card single-item">
+              <div class="img-container">
+                <img src="C:\Users\kriti kothari\Desktop\WEBDEVELOPMENT\setup2\images\img8.jpeg" alt="no display" class="card-img-top store-img">
+                <span class="store-item-icon">
+                  <i class="fas fa-shopping-cart"></i>
+                </span>
+              </div>
+              <div class="card-body">
+                <div class="card-text d-flex justify-content-between text-capitalize">
+                  <h5 class="store-item-name">Brownie</h5>
+                  <h5 class="store-item-price">
+                    <i class="fas fa-rupee-sign"></i>
+                    <strong class="store-item-price font-weight-italic">
+                      70
+                    </strong>
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 col-md-4 mx-auto my-4 store-item">
+            <div class="card single-item">
+              <div class="img-container">
+                <img src="C:\Users\kriti kothari\Desktop\WEBDEVELOPMENT\setup2\images\img9.jpeg" alt="no display" class="card-img-top store-img">
+                <span class="store-item-icon">
+                  <i class="fas fa-shopping-cart"></i>
+                </span>
+              </div>
+              <div class="card-body">
+                <div class="card-text d-flex justify-content-between text-capitalize">
+                  <h5 class="store-item-name">Marsh Mellow</h5>
+                  <h5 class="store-item-price">
+                    <i class="fas fa-rupee-sign"></i>
+                    <strong class="store-item-price font-weight-italic">
+                      80
+                    </strong>
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 col-md-4 mx-auto my-4 store-item">
+            <div class="card single-item">
+              <div class="img-container">
+                <img src="C:\Users\kriti kothari\Desktop\WEBDEVELOPMENT\setup2\images\img10.jpeg" alt="no display" class="card-img-top store-img ">
+                <span class="store-item-icon">
+                  <i class="fas fa-shopping-cart"></i>
+                </span>
+              </div>
+              <div class="card-body">
+                <div class="card-text d-flex justify-content-between text-capitalize">
+                  <h5 class="store-item-name">Pancake with Sliced Strawberry</h5>
+                  <h5 class="store-item-price">
+                    <i class="fas fa-rupee-sign"></i>
+                    <strong class="store-item-price font-weight-italic">
+                      170
+                    </strong>
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Service Section -->
+    <section class="py-5 service" id="service">
+      <div class="container my-5">
+        <div class="row">
+          <div class="col-md-4 text-center my-3">
+            <img src="C:\Users\kriti kothari\Desktop\WEBDEVELOPMENT\setup2\images\img12.jpeg" alt="no display" style="width:70px;height:70px;" class="rounded-circle">
+            <h6 class="text-uppercase my-3 service-title">bread</h6>
+            <p class="w-75 text-left mx-auto service-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error perspiciatis ut nulla fugit quas quos repellendus, necessitatibus earum vel enim?</p>
+          </div>
+          <div class="col-md-4 text-center my-3">
+            <img src="C:\Users\kriti kothari\Desktop\WEBDEVELOPMENT\setup2\images\img14.jpeg" alt="no display" style="width:70px;height:70px;" class="rounded-circle">
+            <h6 class="text-uppercase my-3 service-title">candy</h6>
+            <p class="w-75 text-left mx-auto service-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error perspiciatis ut nulla fugit quas quos repellendus, necessitatibus earum vel enim?</p>
+          </div>
+          <div class="col-md-4 text-center my-3">
+            <img src="C:\Users\kriti kothari\Desktop\WEBDEVELOPMENT\setup2\images\img13.jpeg" alt="no display" style="width:70px;height:70px;" class="rounded-circle">
+            <h6 class="text-uppercase my-3 service-title">cupcake</h6>
+            <p class="w-75 text-left mx-auto service-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error perspiciatis ut nulla fugit quas quos repellendus, necessitatibus earum vel enim?</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Order Section -->
+    <section class="order py-5" id="order">
+      <div class="container my-5">
+        <div class="row">
+          <div class="col-10 mx-auto col-sm-6 text-center">
+            <h1 class="text-capitalize" style="font-family:'Kaushan Script';">Order
+              <strong class="banner-title">cake</strong>
+            </h1>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-11 col-md-6 col-lg-4 text-capitalize">
+            <h3 class="py-3">Birthday Cake</h3>
+            <div class="text-muted">
+              <p class="my-3">birthday cake with pratipal name</p>
+              <p class="my-3">include ingredients</p>
+              <p class="my-3">custom cake</p>
+              <p class="my-3">custom design</p>
+              <a href="#" class="btn banner-link text-capitalize" style="font-family:'Kaushan Script';">ORDER NOW</a>
+              <br><br><br>
+              <p class="text-lowercase mb-4">starting price
+                <i class="fas fa-rupee-sign">400</i>
+              </p>
+              <img src="C:\Users\kriti kothari\Desktop\WEBDEVELOPMENT\setup2\images\img15.jpeg" alt="" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-11 col-md-6 col-lg-4 text-capitalize">
+            <h3 class="py-3">Wedding Cake</h3>
+            <div class="text-muted">
+              <p class="my-3">birthday cake with pratipal name</p>
+              <p class="my-3">include ingredients</p>
+              <p class="my-3">custom cake</p>
+              <p class="my-3">custom design</p>
+              <a href="#" class="btn banner-link text-capitalize" style="font-family:'Kaushan Script';">ORDER NOW</a>
+              <br><br><br>
+              <p class="text-lowercase mb-4">starting price
+                <i class="fas fa-rupee-sign">450</i>
+              </p>
+              <img src="C:\Users\kriti kothari\Desktop\WEBDEVELOPMENT\setup2\images\img16.jpg" alt="" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-11 col-md-6 col-lg-4 text-capitalize">
+            <h3 class="py-3">Eggless Cake</h3>
+            <div class="text-muted">
+              <p class="my-3">birthday cake with pratipal name</p>
+              <p class="my-3">include ingredients</p>
+              <p class="my-3">custom cake</p>
+              <p class="my-3">custom design</p>
+              <a href="#" class="btn banner-link text-capitalize" style="font-family:'Kaushan Script';">ORDER NOW</a>
+              <br><br><br>
+              <p class="text-lowercase mb-4">starting price
+                <i class="fas fa-rupee-sign">1000</i>
+              </p>
+              <img src="C:\Users\kriti kothari\Desktop\WEBDEVELOPMENT\setup2\images\img17.jpeg" alt="" class="img-fluid" style="width:300px;height:200px;">
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer Section -->
+    <section class="footer" id="footer">
+      <div class="container-fluid ">
+        <div class="row">
+          <div class="col-md-6 footer-title py-5">
+            <h1 class="text-capitalize text-center footer-brand">crunch
+              <strong class="banner-title">bake</strong></h1>
+              <div class="footer-icons d-flex justify-content-around align-items-center">
+                <a href="https://www.youtube.com" class="footer-icon"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.facebook.com" class="footer-icon"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.twitter.com" class="footer-icon"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com" class="footer-icon"><i class="fab fa-instagram"></i></a>
+              </div><br>
+              <p class="text-center" style="color:#f40552;font-size:15px;font-weight:bold;">© Copyright 2020 Crunch Bake</p>
+          </div>
+          <div class="col-md-6 footer-contact text-center text-capitalize py-5">
+            <h3 class="mb-5" style="font-family:'Kaushan Script';">contact</h3>
+            <p class="d-flex">
+              <span class="footer-icon1 mr-4">
+                <i class="fas fa-map"></i>address:
+              </span>
+              <span class="text-dark display">purohito ki madri</span>
+            </p>
+            <p class="d-flex">
+              <span class="footer-icon1 mr-4">
+                <i class="fas fa-envelope"></i>E-Mail:
+              </span>
+              <span class="text-dark display text-lowercase">kritikothari2000@gmail.com</span>
+            </p>
+            <p class="d-flex">
+              <span class="footer-icon1 mr-4">
+                <i class="fas fa-phone"></i>phone no:
+              </span>
+              <span class="text-dark display">9154284279</span>
+            </p>
+          </div>
+        </div>
+        <div class="bg-white" style="width:500px;height:20px">
+
+        </div>
+      </div>
+    </section>
+
+<script src="C:\Users\kriti kothari\Desktop\WEBDEVELOPMENT\setup2\js\app.js" charset="utf-8"></script>
+
+  </body>
+</html>
